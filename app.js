@@ -13,7 +13,7 @@ function countdown(x) {
     }, 1000);
 }
 
-function randomGameOne() {
+function randomGameV1() {
     let attemptNumber = 1;
     let randomInterval = setInterval(function(){
         if(Math.random() >= 0.75){
@@ -26,7 +26,7 @@ function randomGameOne() {
     }, 1000);
 }
 
-function randomGameTwo() {
+function randomGameV2() {
     let attemptNumber = 1;
     let randomNumber = Math.random();
     let randomInterval = setInterval(function(){
